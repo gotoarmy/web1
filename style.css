@@ -1,0 +1,21 @@
+
+  #grid ol{
+color:gray;
+border-right: 1px solid gray;
+width:150px;
+margin:0;
+font-size:20px;
+padding:20px;
+}
+h1 {
+border-bottom: 1px solid gray;
+margin:0;
+padding:20px;
+}
+#grid {
+display:grid;
+grid-template-columns:200px 1fr;
+}
+p {
+font-weight: bold;
+}
